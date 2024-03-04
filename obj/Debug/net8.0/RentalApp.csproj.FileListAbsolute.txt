@@ -283,3 +283,4 @@ C:\Users\Aswin\Code\Dotnet\RentalApp\bin\Debug\net8.0\runtimes\win\lib\net6.0\Sy
 C:\Users\Aswin\Code\Dotnet\RentalApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Aswin\Code\Dotnet\RentalApp\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\Aswin\Code\Dotnet\RentalApp\obj\Debug\net8.0\RentalApp.sourcelink.json
+C:\Users\Aswin\Code\Dotnet\RentalApp\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
