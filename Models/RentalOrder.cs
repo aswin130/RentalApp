@@ -20,7 +20,5 @@ namespace RentalApp.Models
         [ForeignKey("Vehicle")]
         public int VehicleId { get; set; }
         public Vehicle? Vehicle {get;set;}
-       
-        // public List<Enrollment>? Enrollments { get; set; }
     }
 }

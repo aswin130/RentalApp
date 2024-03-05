@@ -1,9 +1,12 @@
 
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
  
 namespace RentalApp.Models
 {
-    public class RentalAppContext : DbContext
+    
+    public class RentalAppContext : IdentityDbContext<IdentityUser>
     {
         public RentalAppContext(DbContextOptions<RentalAppContext> options) : base(options)
         {
