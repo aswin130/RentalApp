@@ -26,7 +26,7 @@ Technologies and Packeges:
 
 <b>performing CRUD (Create, Read, Update, Delete) operations</b>
 
-<b>Customer controller</b> <a href=http://localhost:5241/api/Customer>
+<b>Customer controller</b> [Text](http://localhost:5241/api/Customer)
 
 <b>Roles Controller </b>  <a href=http://localhost:5241/api/roles>
 By using [Authorize(Roles = "Admin")] attribute on controller actions or controllers, you ensure that only users with the specified role (in this case, "Admin") can access those endpoints. This helps enforce access control based on user roles.
@@ -39,7 +39,7 @@ By using [Authorize(Roles = "Admin")] attribute on controller actions or control
 
 <b>PricingController</b>  <a href=http://localhost:5241/api/pricing>
 
-<b>LocationController</b>  <a href=http://localhost:5241/api/location>
+<b>LocationController</b>  <a href=[Text](http://localhost:5241/api/location)>
 
 <b>Account Controller</b>
 
