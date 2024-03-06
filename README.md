@@ -1,6 +1,6 @@
 A A .NET Core (C#) RESTful backend service for CRUD operation using rental app as example
 
-Technologies and Packeges:
+Technologies and Packages:
 <ol>
 <li>ASP.NET Core: It is a cross-platform, high-performance framework for building web applications using C#. It provides features like routing, middleware, and dependency injection.</li>
 
