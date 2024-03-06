@@ -26,20 +26,20 @@ Technologies and Packeges:
 
 <b>performing CRUD (Create, Read, Update, Delete) operations</b>
 
-<b>Customer controller</b> [text](http://localhost:5241/api/Customer)
+<b>Customer controller</b> (http://localhost:5241/api/Customer
 
 <b>Roles Controller </b>  http://localhost:5241/api/roles
 By using [Authorize(Roles = "Admin")] attribute on controller actions or controllers, you ensure that only users with the specified role (in this case, "Admin") can access those endpoints. This helps enforce access control based on user roles.
 
 <b>Assign Roles</b> http://localhost:5241/api/roles/assign-role-to-user
 
-<b>Vehicle Controller</b>   <a href=http://localhost:5241/api/vehicle>
+<b>Vehicle Controller</b>   http://localhost:5241/api/vehicle
 
-<b>RentalOrderController</b>  <a href=http://localhost:5241/api/rentalorder>
+<b>RentalOrderController</b> http://localhost:5241/api/rentalorder
 
-<b>PricingController</b>  <a href=http://localhost:5241/api/pricing>
+<b>PricingController</b> http://localhost:5241/api/pricing
 
-<b>LocationController</b>  <a href=[Text](http://localhost:5241/api/location)>
+<b>LocationController</b>  http://localhost:5241/api/location)
 
 <b>Account Controller</b>
 
@@ -76,12 +76,12 @@ The GenerateJwtToken method creates a JWT token containing user claims such as e
 It uses a symmetric security key and specified token expiration time obtained from the configuration (IConfiguration).
 The token is signed using JwtSecurityTokenHandler and returned as a string.
 
-<b>Register the User</b> <a href=http://localhost:5241/api/account/register>
+<b>Register the User</b> http://localhost:5241/api/account/register
 
-</b>Verify the User</b> <a href=http://localhost:5241/api/account/verify-email>
+</b>Verify the User</b> http://localhost:5241/api/account/verify-email
     GET /api/account/verify-email?userId=123&token=verificationToken123
-<b>Login</b> <a href=http://localhost:5241/api/account/login)>
-<b>Logout</b> <a href=(http://localhost:5241/api/account/logout)>
+<b>Login</b> http://localhost:5241/api/account/login
+<b>Logout</b> http://localhost:5241/api/account/logout
 
 <b>DB Context</b>
 
