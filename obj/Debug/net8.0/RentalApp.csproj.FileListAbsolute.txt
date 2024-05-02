@@ -1,5 +1,8 @@
 C:\Users\Aswin\Code\Dotnet\RentalApp\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Aswin\Code\Dotnet\RentalApp\bin\Debug\net8.0\appsettings.json
+C:\Users\Aswin\Code\Dotnet\RentalApp\bin\Debug\net8.0\Frontend\rental-app\package-lock.json
+C:\Users\Aswin\Code\Dotnet\RentalApp\bin\Debug\net8.0\Frontend\rental-app\package.json
+C:\Users\Aswin\Code\Dotnet\RentalApp\bin\Debug\net8.0\Frontend\rental-app\public\manifest.json
 C:\Users\Aswin\Code\Dotnet\RentalApp\bin\Debug\net8.0\RentalApp.exe
 C:\Users\Aswin\Code\Dotnet\RentalApp\bin\Debug\net8.0\RentalApp.deps.json
 C:\Users\Aswin\Code\Dotnet\RentalApp\bin\Debug\net8.0\RentalApp.runtimeconfig.json

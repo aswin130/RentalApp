@@ -12,6 +12,18 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<RentalAppContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("Connection")));
 
+builder.Services.AddCors(options =>
+    {
+        options.AddPolicy("AllowReactApp",
+            builder =>
+            {
+                builder.WithOrigins("http://localhost:3000")
+                       .AllowAnyHeader()
+                       .AllowAnyMethod();
+            });
+    });
+
+
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<RentalAppContext>().AddDefaultTokenProviders();
 

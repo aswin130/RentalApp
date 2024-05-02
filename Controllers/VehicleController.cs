@@ -10,7 +10,7 @@ using RentalApp.Models;
 
 namespace RentalApp.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     [Route("api/[controller]")]
     [ApiController]
     public class VehicleController : ControllerBase
@@ -71,7 +71,7 @@ namespace RentalApp.Controllers
                 }
             }
 
-            return NoContent();
+            return Ok("Vehicle details updated");
         }
 
         // POST: api/Vehicle
@@ -98,7 +98,7 @@ namespace RentalApp.Controllers
             _context.Vehicles.Remove(vehicle);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok("Vehicle removed successfully");
         }
 
         private bool VehicleExists(int id)
