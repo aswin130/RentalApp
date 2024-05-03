@@ -22,25 +22,3 @@ const EditVechile = ({ history }) => {
 };
 
 export default EditVechile;
-// import React from 'react';
-// import VehicleForm from './VehicleForm';
-// import { useParams } from 'react-router-dom';
-
-// const EditVechile = ({ history, vehicles, setVehicles }) => {
-//   const { id } = useParams();
-//   const VehicleToEdit = vehicles.find((vechile) => vechile.id === id);
-
-//   const handleOnSubmit = (vehicle) => {
-//     const filteredvehicles = vehicles.filter((vechile) => vechile.id !== id);
-//     setVehicles([vehicle, ...filteredvehicles]);
-//     history.push('/');
-//   };
-
-//   return (
-//     <div>
-//       <VehicleForm vechile={VehicleToEdit} handleOnSubmit={handleOnSubmit} />
-//     </div>
-//   );
-// };
-
-// export default EditVechile;
