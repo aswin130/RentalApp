@@ -1,49 +1,25 @@
-// src/App.js
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import ProductList from './components/ProductList';
-import Cart from './components/Cart'
-import Header from './components/Header.js';
+import logo from './logo.svg';
+import './App.css';
 
-const App = () => {
-  const [products, setProducts] = useState([]);
-  const [cart, setCart] = useState([]);
-  const [header, setHeader] = useState([]);
-
-  useEffect(() => {
-    // Fetch product data from JSON file
-    fetch('/products.json')
-      .then(response => response.json())
-      .then(data => setProducts(data))
-      .catch(error => console.error('Error fetching product data:', error));
-  }, []);
-
-  const addToCart = product => {
-    setCart([...cart, product]);
-  };
-
+function App() {
   return (
-    <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/cart">Cart</Link>
-            </li>
-          </ul>
-        </nav>
-
-        {/* Routes */}
-        <Routes>
-          <Route path="/cart" element={<Cart cart={cart} />} />
-          <Route path="/" element={<ProductList products={products} addToCart={addToCart} />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
-};
+}
 
 export default App;
