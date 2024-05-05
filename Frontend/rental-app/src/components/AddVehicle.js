@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import VehicleForm from './VehicleForm';
+import VehiclesContext from '../context/VehiclesContext';
 
-const AddVehicle = ({ history, vehicles, setVehicles }) => {
+const AddVehicle = ({ history}) => {
+  const {vehicles, setVehicles} = useContext(VehiclesContext);
+  
   const handleOnSubmit = (vehicle) => {
     setVehicles([vehicle, ...vehicles]);
     history.push('/');

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
   return (
     <header>
-      <h1>Vehicle Rental Management System</h1>
+      <h1>Vehicle Management System</h1>
       <hr />
       <div className="links">
         <NavLink to="/" className="link" activeClassName="active" exact>
